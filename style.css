@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.theme-dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  background: linear-gradient(107.99deg, #243B55 0%, #141E30 49.04%, #243B55 96.55%);
+}
+
+.theme-light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  background: linear-gradient(107.56deg, #F1F1F1 0%, #E5E5E5 50%, #F1F1F1 98.44%);
+}
+
+header {
+  width: 100vw;
+  padding: 30px 5vw 30px 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button {
+  border: 0;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  mix-blend-mode: overlay;
+  border-radius: 50px;
+}
+
+.logo {
+  padding: .5rem;
+}
+
+.menu {
+  width: 100%;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu a, .menu button {
+  margin: 0 10px;
+}
+
+.menu .search {
+  margin-right: auto;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.menu .search input {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  background: #FFFFFF;
+  mix-blend-mode: overlay;
+  border: 0;
+  width: 50vw;
+}
+
+.menu .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 30px;
+}
+
+.sidebar a {
+  margin: 30px 0;
+}
+
+.main {
+  width: 100vw;
+  padding: 30px 5vw 30px 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .banner {
+  height: 20vh;
+  width: 100%;
+  mix-blend-mode: overlay;
+  background: white;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.main .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main .profile .avatar {
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: overlay;
+  background: white;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.main .profile .name {
+  width: 300px;
+  height: 50px;
+  mix-blend-mode: overlay;
+  background: white;
+  border-radius: 50px;
+}
+
+.main .profile .btn-act {
+  margin-left: auto;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .profile .btn-act a {
+  margin-left: auto;
+  width: 150px;
+  height: 50px;
+  mix-blend-mode: overlay;
+  background: white;
+  border-radius: 50px;
+}
+
+.main .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.main .menu a {
+  width: 100px;
+  height: 30px;
+  mix-blend-mode: overlay;
+  background: white;
+  border-radius: 50px;
+}
+
+.main .title-video {
+  margin-bottom: 30px;
+  width: 150px;
+  height: 50px;
+  mix-blend-mode: overlay;
+  background: white;
+  border-radius: 50px;
+}
+
+.main .list-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main .list-video a {
+  width: 24%;
+  margin: 0 .5%;
+  height: 200px;
+  mix-blend-mode: overlay;
+  background: white;
+  border-radius: 50px;
+}
+/*# sourceMappingURL=style.css.map */
